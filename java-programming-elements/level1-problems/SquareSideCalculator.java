@@ -1,5 +1,7 @@
-import java.util.Scanner;
+// Write a program to find the side of the square whose parameter you read from user 
 
+
+import java.util.Scanner;
 public class SquareSideCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -9,8 +11,6 @@ public class SquareSideCalculator {
         
         double side = perimeter / 4;
         
-        System.out.println("The length of the side is " + side + " whose perimeter is " + perimeter + ".");
-        
-        input.close();
+        System.out.println("The length of the side is " + side + " whose perimeter is " + perimeter);
     }
 }

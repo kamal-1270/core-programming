@@ -1,3 +1,5 @@
+//9. Write a new program similar to the program # 6 but take user input for Student Fee and University Discount
+
 import java.util.Scanner;
 
 public class UniversityFeeDiscountCalculator {
@@ -13,7 +15,7 @@ public class UniversityFeeDiscountCalculator {
         double discount = (fee * discountPercent) / 100.0;
         double finalFee = fee - discount;
         
-        System.out.println("The discount amount is INR " + discount + " and final discounted fee is INR " + finalFee + ".");
+        System.out.println("The discount amount is INR " + discount + " and final discounted fee is INR " + finalFee);
         
         input.close();
     }

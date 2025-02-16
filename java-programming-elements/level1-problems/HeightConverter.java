@@ -1,3 +1,6 @@
+//10. Write a program that takes your height in centimeters and converts it into feet and inches
+
+
 import java.util.Scanner;
 
 public class HeightConverter {
@@ -11,7 +14,7 @@ public class HeightConverter {
         int feet = (int) (totalInches / 12);
         double inches = totalInches % 12;
         
-        System.out.println("Your Height in cm is " + heightCm + " while in feet is " + feet + " and inches is " + inches + ".");
+        System.out.println("Your Height in cm is " + heightCm + " while in feet is " + feet + " and inches is " + inches);
         
         input.close();
     }

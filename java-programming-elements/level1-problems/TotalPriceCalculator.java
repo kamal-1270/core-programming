@@ -1,3 +1,4 @@
+// Write a program to input the unit price of an item and the quantity to be bought. Then, calculate the total price.
 import java.util.Scanner;
 
 public class TotalPriceCalculator {
@@ -13,7 +14,5 @@ public class TotalPriceCalculator {
         double totalPrice = unitPrice * quantity;
         
         System.out.println("The total purchase price is INR " + totalPrice + " if the quantity is " + quantity + " and unit price is INR " + unitPrice + ".");
-        
-        input.close();
     }
 }
