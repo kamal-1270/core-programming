@@ -3,9 +3,9 @@
 import java.util.Scanner;
 public class DistanceConverter {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter distance in feet: ");
-        double distanceInFeet = input.nextDouble();
+        double distanceInFeet = sc.nextDouble();
         
         // Convert feet to yards and miles
         double distanceInYards = distanceInFeet / 3;

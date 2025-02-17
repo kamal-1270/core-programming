@@ -4,8 +4,10 @@ public class NumberAnalysis {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number : ");
+        //you take a numbers name of array and deide the size 
         int[] numbers = new int[5];
 
+        // you take the input of array using loop
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = sc.nextInt();
         }

@@ -1,5 +1,5 @@
+// package  bridgelabz-workspace.core-programming.java-arrays.MultiplicationTable;
 import java.util.Scanner;
-
 public class MultiplicationTable {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
