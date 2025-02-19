@@ -10,7 +10,6 @@ public class FizzBuzzArray {
         // Check if the number is positive
         if (number < 1) {
             System.out.println("Error: Please enter a positive integer.");
-            sc.close();
             return;
         }
         

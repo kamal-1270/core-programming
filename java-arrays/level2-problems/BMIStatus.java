@@ -8,10 +8,14 @@ public class BMIStatus {
 
     // Function to determine weight status  
     private static String determineWeightStatus(double bmi) {  
-        if (bmi <= 18.4) return "Underweight";  
-        else if (bmi <= 24.9) return "Normal";  
-        else if (bmi <= 39.9) return "Overweight";  
-        else return "Obese";  
+        if (bmi <= 18.4)
+         return "Underweight";  
+        else if (bmi <= 24.9)
+         return "Normal";  
+        else if (bmi <= 39.9)
+         return "Overweight";  
+        else
+         return "Obese";  
     }  
 
     // Function to get valid weight input  
