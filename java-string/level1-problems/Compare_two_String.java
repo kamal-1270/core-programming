@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Compare_two_String {
-
+    //create a method 
     public static boolean compareUsingCharAt(String str1, String str2) {
         if (str1.length() != str2.length()) {
             return false;

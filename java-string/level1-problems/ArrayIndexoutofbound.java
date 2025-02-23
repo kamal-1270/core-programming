@@ -1,6 +1,20 @@
 import java.util.Scanner;
 
 public class ArrayIndexoutofbound {
+    public static void generateException(String[] names) {
+        System.out.println(names[names.length]);
+    }
+
+
+    public static void handleException(String[] names) {
+        try {
+            System.out.println(names[names.length]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("ArrayIndexOutOfBoundsException caught");
+        } catch (Exception e) {
+            System.out.println("Exception caught");
+        }
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -15,22 +29,6 @@ public class ArrayIndexoutofbound {
         }
 
         generateException(names);
-
         handleException(names);
-    }
-
-    public static void generateException(String[] names) {
-        System.out.println(names[names.length]);
-    }
-
-
-    public static void handleException(String[] names) {
-        try {
-            System.out.println(names[names.length]);
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("ArrayIndexOutOfBoundsException caught");
-        } catch (Exception e) {
-            System.out.println("Exception caught");
-        }
     }
 }
