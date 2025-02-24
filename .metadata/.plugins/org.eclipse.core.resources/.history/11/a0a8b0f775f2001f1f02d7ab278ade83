@@ -1,0 +1,7 @@
+package oops.object-oriented-programming.java-object-class.level1-problems;
+
+public class Employees {
+	public static void main(String args[]) {
+		System.out.print("Hello");
+	}
+}
